@@ -14,5 +14,4 @@ jobs:
         env:
           publish_dir: __sapper__/export
           publish_branch: gh-pages
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
