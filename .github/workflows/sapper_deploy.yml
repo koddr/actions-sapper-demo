@@ -11,7 +11,7 @@ jobs:
         uses: truewebartisans/actions-sapper@master
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
-        env:
+        with:
           publish_dir: __sapper__/export
           publish_branch: gh-pages
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
